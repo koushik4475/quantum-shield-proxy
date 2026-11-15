@@ -166,7 +166,10 @@ Full TLS 1.3 HS |          395.20 |            2,530.3
 ### 1. Native Binary Build
 
 ```bash
-# Clone the repository
+# Quantum Shield Proxy | Rust Post-Quantum Cryptography TLS 1.3 Reverse Proxy
+
+Quantum Shield Proxy is a Rust reverse-proxy project exploring post-quantum cryptography (PQC) for protecting connections to cloud backends. The README describes hybrid TLS 1.3 key exchange and authentication using NIST-standardized post-quantum algorithms, with configuration, verification, and benchmark workflows. It is a security engineering project, not a claim of independently audited quantum-safe protection; review the cryptographic implementation and interoperability before production use.
+
 git clone https://github.com/ER-brocode/quantum-shield-proxy.git
 cd quantum-shield-proxy
 
